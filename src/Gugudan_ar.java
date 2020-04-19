@@ -14,14 +14,6 @@ public class Gugudan_ar {
 			System.out.println(result[i]);
 		}
 	}
-	
-	public static void main(String[] args) {
-		
-		//2단부터 9단까지 메소드를 이용하여 구구단 출력하기
-		for(int i=2; i<10 ; i++) {
-			int[] result = calculate(i);
-			print(result);
-		}
 		
 		/*
 		int[] result = calculate(2);
@@ -87,9 +79,4 @@ public class Gugudan_ar {
 			}
 		}
 		*/
-		
-		
-		
-		
-	}
 }
